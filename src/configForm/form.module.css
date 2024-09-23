@@ -1,0 +1,42 @@
+/* 
+  CSS Modules allow you to scope your CSS to the component, avoiding global style conflicts.
+*/
+/* form.module.css write module not like form.css*/
+.formContainer {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 8%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.headng {
+  text-align: center;
+  font-size: 16px;
+  color: rgb(15, 14, 14);
+  font-weight: bold;
+}
+
+.inputField {
+  width: 94%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
